@@ -61,15 +61,13 @@ void RelayLib::pulso()
 {
   if (relayState==HIGH) {
     off(); 
-    delay(1000);
-    on();
-    delay(1000);
-    off();
-    on();
+    
     
     
   } else {
-    on(); delay(1000);off();
+    on(); 
+    delay(1000);
+    off();
   }
 }
  
